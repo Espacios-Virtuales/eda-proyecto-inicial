@@ -84,6 +84,7 @@ Cada carpeta tiene un propósito:
 - Ingresar a GitHub  
 - Crear nuevo repositorio  
 - Agregar README inicial  
+- Hola Mundo en Python  
 
 ---
 

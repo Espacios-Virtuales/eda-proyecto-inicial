@@ -31,6 +31,12 @@ eda-proyecto-inicial/
  └─ README.md   
 ```
 
+## Ejecutar Programa Inicial
+
+```py
+    python main.py
+```
+
 ## 🜂 Primeros pasos
 
 1. Crear estructura base  
