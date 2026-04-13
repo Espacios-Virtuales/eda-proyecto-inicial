@@ -1,0 +1,16 @@
+id,edad,genero,educacion,ingreso_mensual,horas_trabajo,ciudad
+1,25,Femenino,Universitaria,850000,40,Valparaiso
+2,32,Masculino,Tecnica,650000,45,Viña del Mar
+3,28,Femenino,Universitaria,920000,38,Quilpue
+4,45,Masculino,Media,500000,50,Villa Alemana
+5,36,Femenino,Tecnica,700000,42,Valparaiso
+6,29,Masculino,Universitaria,1100000,40,Viña del Mar
+7,52,Femenino,Media,480000,35,Quilpue
+8,41,Masculino,Tecnica,750000,44,Villa Alemana
+9,23,Femenino,Universitaria,600000,30,Valparaiso
+10,38,Masculino,Universitaria,1050000,48,Viña del Mar
+11,27,Femenino,Tecnica,680000,40,Quilpue
+12,34,Masculino,Media,520000,46,Villa Alemana
+13,31,Femenino,Universitaria,970000,39,Valparaiso
+14,47,Masculino,Tecnica,720000,50,Viña del Mar
+15,26,Femenino,Media,450000,36,Quilpue
