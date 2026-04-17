@@ -24,55 +24,54 @@ sino aprender a formularlas.
 ```
 eda-proyecto-inicial/
  ├─ data/           # Acceso a datasets
-     ├─ personas_eda.csv
+ │   └─ personas_eda.csv
  ├─ docs/           # Documentación de proyecto
-    ├─ bitacoras/
-    ├─ clases/
-    ├─ trabajos/  
- ├─ notebooks/      # Hojas trabjos
-    ├─ lab_eda.ipynb
-    ├─ lab_eda.py
- ├─ src/            # Servicios
+ │   ├─ bitacoras/
+ │   ├─ clases/
+ │   └─ trabajos/  
+ ├─ notebooks/      # Exploración (laboratorio)
+ │   ├─ lab_eda.ipynb
+ │   └─ lab_eda_v3.ipynb
+ ├─ src/            # Código ejecutable / orquestación
+ │   ├─ main.py
+ │   └─ generated/  # Scripts generados desde notebooks
+ ├─ requirements.txt
  ├─ LICENSE            
- └─ README.md   
+ └─ README.md    
 ```
 
-## Ejecutar Programa Inicial
+## ⚙️ Configuración del entorno
 
-```py
-    python main.py
+- Crear entorno virtual
+
+```bash
+    python -m venv .venv
 ```
 
-## 🜂 Primeros pasos
+- Activar entorno
 
-1. Crear estructura base  
-2. Registrar primer commit  
-3. Iniciar exploración de datos  
-4. Documentar hallazgos  
+Linux / Mac
+```bash
+    source .venv/bin/activate
+```
 
----
+- Instalar Independencias
+```bash
+    pip install -r requirements.txt
+```
 
-## 🔁 Flujo de trabajo
+## ▶️ Ejecución del proyecto
 
-- Cada cambio relevante se registra con un commit
-- Los commits deben ser claros y descriptivos
-- El README evoluciona junto al proyecto
+Ejecutar pipeline desde main.py
 
-Ejemplos de commits:
+```bash
+    python src/main.py lab_eda_v3.ipynb
+```
 
-- `estructura inicial del proyecto`
-- `primer analisis exploratorio`
-- `limpieza de datos inicial`
+Esto:
 
----
-
-## 🌿 Primer dataset
-
-*(aquí puedes agregar el dataset que usarás)*
-
-Fuente:
-Descripción:
-Observaciones iniciales:
+Ejecuta el notebook
+Genera un .py en src/generated/
 
 ---
 

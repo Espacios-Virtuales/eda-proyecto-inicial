@@ -7,6 +7,4 @@ Fecha de inicio: 13-04-2026
 - estructura inicial
 - primer commit
 
-*(continúa registrando aquí tu proceso)*
-
 ---
