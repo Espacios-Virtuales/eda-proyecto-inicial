@@ -24,8 +24,14 @@ sino aprender a formularlas.
 ```
 eda-proyecto-inicial/
  ├─ data/           # Acceso a datasets
+     ├─ personas_eda.csv
  ├─ docs/           # Documentación de proyecto
+    ├─ bitacoras/
+    ├─ clases/
+    ├─ trabajos/  
  ├─ notebooks/      # Hojas trabjos
+    ├─ lab_eda.ipynb
+    ├─ lab_eda.py
  ├─ src/            # Servicios
  ├─ LICENSE            
  └─ README.md   
