@@ -69,7 +69,7 @@ Crear usuario y confirmar correo.
 # 🜂 4. Crear repositorio
 
 * Click en "New repository"
-* Nombre: proyecto-eda-inicial
+* Nombre: neuronas-ev-lab-api
 * Activar README
 
 ---
@@ -77,8 +77,8 @@ Crear usuario y confirmar correo.
 # 🌊 5. Clonar repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/proyecto-eda-inicial.git
-cd proyecto-eda-inicial
+git clone https://github.com/tu-usuario/neuronas-ev-lab-api.git
+cd neuronas-ev-lab-api
 code .
 ```
 

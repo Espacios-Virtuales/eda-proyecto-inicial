@@ -58,7 +58,7 @@ Ejemplo:
 ## 🧱 Estructura base del proyecto
 
 ```
-eda-proyecto-inicial/
+neuronas-ev-lab-api/
  ├─ data/           # Acceso a datasets
  ├─ docs/           # Documentación de proyecto
  ├─ notebooks/      # Hojas trabjos
